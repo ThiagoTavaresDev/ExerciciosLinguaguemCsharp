@@ -7,10 +7,8 @@ namespace Exercicios.Exercicios
   {
     public static void Main()
     {
-      var debug = new ex6();
-
-      debug.findLongestWord();
-
+      var debug = new ex7();
+      debug.printOddNumbersUntil99();
     }
   }
 }
