@@ -7,8 +7,8 @@ namespace Exercicios.Exercicios
   {
     public static void Main()
     {
-      var debug = new ex8();
-      debug.SumOfFirst500PrimeNumbers();
+      var debug = new ex9();
+      debug.sumOfDigitsByInputNumber();
     }
   }
 }
