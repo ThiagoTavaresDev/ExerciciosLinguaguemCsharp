@@ -27,18 +27,18 @@ namespace Exercicios.Exercicios
       double resultado = soma / tamanho;
             Console.WriteLine($"A média é: {resultado}");
      }
-    static void Main(String[] args)
-    {
-      Console.WriteLine("Quanto valores voce deseja digitar?");
-      int quantidade = int.Parse(Console.ReadLine());
+    //static void Main(String[] args)
+    //{
+    //  Console.WriteLine("Quanto valores voce deseja digitar?");
+    //  int quantidade = int.Parse(Console.ReadLine());
 
-      for (int i = 0; i < quantidade; i++)
-      {
-        Console.WriteLine($"Digite o {i + 1}º valor:");
-        Valores.Add(double.Parse(Console.ReadLine()));
-      }
-      TiraMedia();
-    }
+    //  for (int i = 0; i < quantidade; i++)
+    //  {
+    //    Console.WriteLine($"Digite o {i + 1}º valor:");
+    //    Valores.Add(double.Parse(Console.ReadLine()));
+    //  }
+    //  TiraMedia();
+    //}
     
   }  
 }

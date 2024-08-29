@@ -17,8 +17,8 @@ namespace Exercicios.Exercicios
   {
     double soma(double val1, double val2)
     {
-            Console.WriteLine($"a soma é: {val1+val2}");
-            return val1 + val2;
+      Console.WriteLine($"a soma é: {val1 + val2}");
+      return val1 + val2;
     }
     double subtracao(double val1, double val2)
     {
@@ -35,25 +35,26 @@ namespace Exercicios.Exercicios
       Console.WriteLine($"a divisao é: {val1 / val2}");
       return val1 / val2;
     }
-    double modulo (double val1, double val2) {
+    double modulo(double val1, double val2)
+    {
       Console.WriteLine($"o modulo é: {val1 % val2}");
       return val1 % val2;
     }
 
-    static void Main(String[] args)
-    {
-      ex2 obj = new ex2();
+    //  static void Main(String[] args)
+    //  {
+    //    ex2 obj = new ex2();
 
-      Console.WriteLine("Digite o primeiro valor");
-      double numero1 = double.Parse(Console.ReadLine());
-      Console.WriteLine("Digite o segundo valor");
-      double numero2 = double.Parse(Console.ReadLine());
-      obj.soma(numero1, numero2);
-      obj.subtracao(numero1, numero2);
-      obj.multiplicacao(numero1, numero2);
-      obj.divisao(numero1, numero2);
-      obj.modulo(numero1, numero2);
+    //    Console.WriteLine("Digite o primeiro valor");
+    //    double numero1 = double.Parse(Console.ReadLine());
+    //    Console.WriteLine("Digite o segundo valor");
+    //    double numero2 = double.Parse(Console.ReadLine());
+    //    obj.soma(numero1, numero2);
+    //    obj.subtracao(numero1, numero2);
+    //    obj.multiplicacao(numero1, numero2);
+    //    obj.divisao(numero1, numero2);
+    //    obj.modulo(numero1, numero2);
 
-    }
+    //  }
   }
 }

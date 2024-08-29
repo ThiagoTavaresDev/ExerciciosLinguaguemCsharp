@@ -20,20 +20,20 @@ namespace Exercicios_csharp.Exercicios_pt1
       Console.WriteLine($"Second Number : {valor2}");
     }
 
-    static void Main(string[] args)
-    {
-      // Test data
-      Console.WriteLine("Input the First Number : ");
-      int num1 = Convert.ToInt32(Console.ReadLine());
+  //  static void Main(string[] args)
+  //  {
+  //    // Test data
+  //    Console.WriteLine("Input the First Number : ");
+  //    int num1 = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine("Input the Second Number : ");
-      int num2 = Convert.ToInt32(Console.ReadLine());
+  //    Console.WriteLine("Input the Second Number : ");
+  //    int num2 = Convert.ToInt32(Console.ReadLine());
 
-      // Creating an object of ex1 class
-      ex1 obj = new ex1();
+  //    // Creating an object of ex1 class
+  //    ex1 obj = new ex1();
 
-      // Calling the method to swap numbers
-      obj.trocaValoresDePosicao(num1, num2);
-    }
+  //    // Calling the method to swap numbers
+  //    obj.trocaValoresDePosicao(num1, num2);
+  //  }
   }
 }
