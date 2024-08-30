@@ -7,8 +7,8 @@ namespace Exercicios.Exercicios
   {
     public static void Main()
     {
-      var debug = new ex9();
-      debug.sumOfDigitsByInputNumber();
+      var debug = new ex10();
+      debug.fileSize();
     }
   }
 }
